@@ -1,0 +1,25 @@
+
+public Class Triangular{
+  
+
+
+public static void isTriangular(int input)
+{
+   int currentTriNum = 0;
+   int n=0; 
+
+   while (currentTriNum < input)
+   {
+     currentTriNum += n; 
+     n++; 
+   }
+
+   if (currentTriNum != input) 
+      System.out.println("This is NOT a triangular number");
+   else 
+      System.out.println("This is a triangular number"); 
+
+
+}
+
+}
