@@ -82,5 +82,5 @@
 		Exit:	
 			li $v0,10	# end program
 			syscall
-		
+		// added some comment
 			
